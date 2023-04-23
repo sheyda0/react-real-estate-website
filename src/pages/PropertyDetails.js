@@ -1,7 +1,10 @@
 import React from 'react';
+import Property from '../components/Property';
 
-const PropertyDetails = () => {
-  return <div>PropertyDetails</div>;
-};
-
-export default PropertyDetails;
+export default function PropertyDetails() {
+  return (
+    <>
+    <Property />
+    </>
+  )
+}
